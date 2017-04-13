@@ -51,3 +51,8 @@ timchen7:~/seed-project (master) $ npm start --host 0.0.0.0 --port 8080 --live-r
 browser: http://node2-timchen7.c9users.io:8080/message/somthing  ==type 'something'===>see===>
 A NodeJS view
 somthing
+===========  post form : input button ===========
+http://node2-timchen7.c9users.io:8080/message/submitText
+A NodeJS view
+submitText 
+           Submit <--- submit "submitText"
