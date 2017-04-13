@@ -30,3 +30,18 @@ $ npm run build (this will run forever)
 terminal-2:
 $ npm start --host 0.0.0.0 --port 8080 --live-reload-port 8081 ( this will start the server)
 Browser http://node1-timchen7.c9users.io:8080/  see--> Hello World!
+-------------------------------- GITHUB --------------------------------
+$ git init
+$ git config --global user.name ".."
+$ git config --global user.email ".."
+$ git config --global credential.helper store
+$ git add .
+$ git commit -m "6. Setup seed-project: Hello world!"
+$ git remote add origin https://github.com/timchen777/angular2_and_nodejs_the_practical_MEAN_stack_guide.git
+$ git push -u origin master
+============= 10. Working with Requests and Responses ====================
+restart server: ^C
+timchen7:~/seed-project (master) $ npm start --host 0.0.0.0 --port 8080 --live-reload-port 8081
+browser:  http://node2-timchen7.c9users.io:8080/message  see==>
+A NodeJS view
+Hi nodejs
