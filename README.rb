@@ -45,3 +45,9 @@ timchen7:~/seed-project (master) $ npm start --host 0.0.0.0 --port 8080 --live-r
 browser:  http://node2-timchen7.c9users.io:8080/message  see==>
 A NodeJS view
 Hi nodejs
+================ 11. Creating Routes and Passing Data ==================
+restart server: ^C
+timchen7:~/seed-project (master) $ npm start --host 0.0.0.0 --port 8080 --live-reload-port 8081
+browser: http://node2-timchen7.c9users.io:8080/message/somthing  ==type 'something'===>see===>
+A NodeJS view
+somthing
