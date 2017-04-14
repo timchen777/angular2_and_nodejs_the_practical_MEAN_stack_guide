@@ -127,7 +127,7 @@ timchen7:~/seed-project (master) $ chmod a+x mongod
 timchen7:~/seed-project (master) $ ./mongod  
 2017-04-14T00:09:24.766+0000 [initandlisten] MongoDB starting : pid=1617 port=27017 dbpath=data 64-bit host=timchen7-node2-4719994
 2017-04-14T00:09:24.767+0000 [initandlisten] options: { net: { bindIp: "0.0.0.0", http: { RESTInterfaceEnabled: true, enabled: true } }, storage: { dbPath: "data", journal: { enabled: false } } }
-================== sing the MongoDB Shell Client 'mongo'=============
+================== Using the MongoDB Shell Client 'mongo'=============
 open another terminal
 timchen7:~/seed-project (master) $ mongo
 MongoDB shell version: 2.6.12
@@ -155,3 +155,13 @@ port 27017 is found out from after running ./mongod above, as following
 (   "mongoose-unique-validator": "^1.0.5", will be added to package.json )
 3. add "var mongooseUniqueValidator = require('mongoose-Unique-Validator');" and 
        "schema.plugin(mongooseUniqueValidator);" to user.js model
+============== 22. Storing Data in the Database ====================
+restart server: ^C
+timchen7:~/seed-project (master) $ npm start --host 0.0.0.0 --port 8080 --live-reload-port 8081
+   at tryModuleLoad (module.js:447:12)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! udemy-nodejs-angular2@1.0.0 start: `node ./bin/www "0.0.0.0" "8080" "8081"`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the udemy-nodejs-angular2@1.0.0 start script 'node ./bin/www "0.0.0.0" "8080" "8081"'.
